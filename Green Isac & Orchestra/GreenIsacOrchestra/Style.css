@@ -1,16 +1,38 @@
 body{
   background-position: fixed;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: normal;
-  font-family: Spectral;
+  font-family: Raleway;
   background-color:black;
 }
 
-.a green isac{
-  position: absolute;
-  text-align: right;
+.alignleft {
+  font-size: 30px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.alignright {
   float: right;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.aligntop {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: Raleway;
 }
 
 
