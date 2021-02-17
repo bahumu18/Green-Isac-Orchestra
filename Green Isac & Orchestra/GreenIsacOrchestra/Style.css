@@ -7,7 +7,6 @@ body{
   background-color:black;
 }
 
-
 .dropbtn {
   background-color:black;
   border: none;
@@ -84,54 +83,31 @@ h2 {
   font-family: Raleway;
 }
 
-.dropbtn {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: gray;
-}
-
-.fas fa-bars{
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+.news{
   z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown a:hover {
-  background-color:gray;
-}
-
-.show {
-  display: block;
-}
-
-.media {
-  z-index: 2;
   text-align: center;
   top: 37%;
+  color: white;   
+  width: 100%;
+  background-color:black;
+  border: 5px solid black;
+}
+
+.discograpghy{
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  color: white;   
+  width: 95%;
+  background-color:black;
+  border: 5px solid black;
+}
+
+.media{
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  bottom: -2100px;
   color: white;   
   width: 100%;
   background-color:black;
@@ -150,73 +126,31 @@ h2 {
   margin: 8px;
 }
      
-
 .imagecard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   }
 
-.news{
-  position: absolute;
-  z-index: 3;
-  text-align: center;
-  bottom: -2000px;
-  color: white;   
-  width: 95%;
-  background-color:black;
-  border: 5px solid black;
-}
-
-.discography{
+.about{
   position: absolute;
   z-index: 4;
   text-align: center;
-  bottom: -2500px;
   color: white;   
-  width: 90%;
-  background-color:black;
-  border: 5px solid black;
-}
-
-  /*
-  .technicalsupport{
-   position: absolute;
-   z-index: 5;
-   text-align: center;
-   bottom: -380px;
-   color: white;   
-   width: 90%;
-   background-color:black;
-   border: 5px solid black;
-}
-*/
-      
-.about{
-  position: absolute;
-  z-index: 6;
-  text-align: center;
-  color: white;   
-  bottom: -3100px;
+  bottom: -600px;
   width: 70%;
   left: 15%;
   background-color:black;
   border: 5px solid black;
 }
 
-
 .contact{
-  position: absolute;
-  z-index: 7;
+  position: fixed;
+  z-index: 5;
   text-align: center;
   color: white;   
   width: 100%;
   left: 2%;
-  top: 4000px;
+  bottom: -1300px;
   background-color:black;
   border: 5px solid black;
-}
-
-.videoswrapper {
-  position: relative;
-  left: 5%;
 }
