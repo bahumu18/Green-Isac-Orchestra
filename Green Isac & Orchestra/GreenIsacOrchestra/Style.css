@@ -4,7 +4,12 @@ body{
   font-size: 20px;
   font-weight: normal;
   font-family: Raleway;
-  background-color:black;
+  background-color:rgb(126, 111, 111);
+}
+.myHeader{
+  background-color: rgb(9, 92, 64);
+  width: 100%;
+  
 }
 
 .dropbtn {
@@ -81,6 +86,7 @@ a {
 
 h2 {
   font-family: Raleway;
+  text-align: center;
 }
 
 .news{
