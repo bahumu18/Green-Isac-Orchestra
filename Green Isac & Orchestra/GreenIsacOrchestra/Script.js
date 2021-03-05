@@ -18,3 +18,12 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+
+    document.getElementById("navbar").style.top = "0";
+  
+}
