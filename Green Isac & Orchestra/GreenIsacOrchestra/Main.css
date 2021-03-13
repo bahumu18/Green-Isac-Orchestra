@@ -1,0 +1,152 @@
+body{
+ background-position: fixed;
+ color: white;
+ font-size: 20px;
+ font-weight: normal;
+ font-family: Raleway;
+ background: black;
+ justify-content: space-evenly;
+}
+
+.myHeader{
+ background-color:white;
+ width: 100%;
+}
+
+.container{
+ width: 80%;
+ margin: auto;
+ }
+
+.content {
+  float: left;
+  padding: 0 10px;
+ }
+
+header {
+background: black;
+}
+
+header::after {
+content: '';
+display: table;
+clear: both;
+}
+
+nav {
+float: right;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin-left: 70px;
+padding-top: 23px;
+}
+
+nav a {
+color:white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 15px;
+}
+
+nav a:hover {
+color: white
+}
+
+nav a::before {
+content: '';
+display: block;
+height: 5px;
+background-color: black;
+transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+width: 100%;
+}
+
+.alignleft {
+ font-size: 30px;
+ float: left;
+ margin-left: 70px;
+ margin-top: 40px;
+ margin-bottom: 10px;
+}
+
+.alignright {
+ float: right;
+ margin-right: 30px;
+ margin-top: 50px;
+ margin-bottom: 10px;
+}
+
+.aligntop {
+ float: left;
+}
+
+a {
+ text-decoration: none;
+ color: white;
+ font-size: 15px;
+ text-align: center;
+}
+
+h2 {
+ font-family: Raleway;
+ text-align: center;
+ font-size: 20px;
+}
+
+.news{
+ width: auto;
+ margin: 0 auto;
+ padding: 50px;
+ display: block;
+ margin-inline: 150px;
+ color: whitesmoke;  
+ width: auto;
+ font-size: 30px;
+ text-align: center;
+}
+
+.albums {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
+.videos{
+ width: 100%;
+ margin: 0 auto;
+ margin-left: 50px;
+}
+
+.pictures {
+ width: 100%;
+ margin: 0 auto;
+ margin-left: 50px;
+}
+
+.click{
+  text-align: right;
+  margin-left: 500px;
+}
+
+ .about{
+ width: auto;
+ margin: 0 auto;
+ padding: 50px;
+ display: block;
+ margin-inline: 150px;
+ text-align: center;
+ color: white;  
+ width: auto;
+ font-size: 30px;
+}
