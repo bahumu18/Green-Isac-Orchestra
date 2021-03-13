@@ -1,0 +1,64 @@
+body{
+ background-position: fixed;
+ color: white;
+ font-size: 20px;
+ font-weight: normal;
+ font-family: Raleway;
+ background-color:black;
+}
+
+h1{
+ text-align: center;
+} 
+
+#circlescontainer{
+ margin: auto;
+ width: max-content;
+ position: relative;
+margin-top: 300px;
+ margin-right: 200px;
+ transform: translate(-50%, -50%)
+}  
+
+.circles {
+ width: 170px;
+ height: 170px;
+ border-radius: 100px;
+ float: left;
+ margin: 0px 30px;
+}
+
+.circles p {
+text-align: center;
+color: white;
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+line-height: 20px;
+ letter-spacing: 0px;
+}
+
+.text1 {
+ padding: 50px 3px 0 3px;
+}
+
+.text2 {
+ padding: 60px 3px 0 3px;
+}
+
+#circle1 {
+ background-color: grey;
+}
+
+#circle1:hover{
+ background-color: darkgray;
+}
+
+
+#circle2 {
+ background-color: rgb(71, 121, 71);
+}
+
+#circle2:hover{
+ background-color: rgb(36, 61, 36);
+}
