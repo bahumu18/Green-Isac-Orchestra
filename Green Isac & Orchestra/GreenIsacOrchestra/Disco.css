@@ -1,0 +1,29 @@
+body{
+ background-position: fixed;
+ color: black;
+ font-size: 20px;
+ font-weight: normal;
+ font-family: Raleway;
+ background-color:whitesmoke
+}
+
+h2 {
+ font-family: Raleway;
+ text-align: center;
+}
+
+.orchestra{
+ width: 100%;
+ margin: 0 auto;
+ padding: 300px;
+ margin-top: -300px;
+ margin-left: -250px;
+}
+
+.bar {
+ width: 100%;
+ margin: 0 auto;
+ padding: 300px;
+ margin-top: -300px;
+ margin-left: -250px;
+}
