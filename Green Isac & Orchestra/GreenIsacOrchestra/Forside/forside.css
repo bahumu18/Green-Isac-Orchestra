@@ -15,7 +15,7 @@ h1{
  margin: auto;
  width: max-content;
  position: relative;
-margin-top: 300px;
+ margin-top: 300px;
  margin-right: 200px;
  transform: translate(-50%, -50%)
 }  
@@ -61,4 +61,45 @@ line-height: 20px;
 
 #circle2:hover{
  background-color: rgb(36, 61, 36);
+}
+
+
+/* Media Queries-------------------------*/
+
+@media all and (max-width : 768px) {
+
+#circlescontainer{
+ margin: auto;
+ width: max-content;
+ position: relative;
+ margin-top: 200px;
+ margin-left: 200px;
+ transform: translate(-50%, -50%)
+}  
+
+.circles {
+ width: 170px;
+ height: 170px;
+ border-radius: 100px;
+ float: left;
+ margin: 0 30px;
+}
+
+.circles p {
+text-align: center;
+color: white;
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+line-height: 20px;
+ letter-spacing: 0px;
+}
+
+
+}
+
+@media all and (max-width : 330px) {
+ #circlescontainer .circles p .circles {
+  text-align: center;
+ }
 }
