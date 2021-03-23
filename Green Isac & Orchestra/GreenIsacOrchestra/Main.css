@@ -1,45 +1,135 @@
 body {
-  background-position: fixed;
-	background: #212121;
-	font-size:20px;
-	line-height: 30px;
-	color: whitesmoke;
 	margin: 0;
 	padding: 0;
+  background-position: fixed;
+	background: black;
+	font-size: 20px;
+	color: white;
 	word-wrap:break-word !important;
   font-family: Raleway;
-  justify-content: space-evenly;
 	}
+
+	* {box-sizing: border-box}
+	body {font-family: Verdana, sans-serif; margin:0}
+	.mySlides {display: none}
+	img {vertical-align: middle;}
+	
+	/* Slideshow container */
+	.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+	}
+	
+	/* Next & previous buttons */
+	.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+	}
+	
+	/* Position the "next button" to the right */
+	.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+	}
+	
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+	}
+	
+	/* Caption text */
+	.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+	}
+
+	
+	/* The dots/bullets/indicators */
+	.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+	}
+	
+	.active, .dot:hover {
+			background-color: #717171;
+	}
+	
+	/* Fading animation */
+	.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+	}
+	
+	@-webkit-keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+	}
+	
+	@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+	}
+	
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+			.prev, .next,.text {font-size: 11px}
+	}
+
 
 h1 {
 	font-size: 60px;
 	text-align: center;
-	color: whitesmoke;
-  margin-top: 100px;
-  line-height: 70px;
-  font-family: Raleway;
+	color: white;
+ margin-top: 100px;
+ font-family: Raleway;
+	line-height: 70px;
 }	
 
 h2 {
 	font-size: 15px;
-	line-height: 34px;
 	text-align: center;
 	color: whitesmoke;
 }
 
 h3 {
-	font-size: 30px;
-	line-height: 34px;
-	text-align: center;
-	color: whitesmoke;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	top: -10px;
+	left: 370px;
 }
 
 h3 a {
-	color: whitesmoke;
+	color: white;
 }
 
 a {
-	color: whitesmoke;
+	color: white;
+	text-decoration: none;
 }
 
 #container {
@@ -59,10 +149,10 @@ p {
 nav { 
 	margin:0;
 	padding: 0;
-	background-color: #254441;
+	background-color: black;
 }
 
-#website1 {
+#orchestra {
 	display: block;
 	padding: 0 30px;
 	float: left;
@@ -70,7 +160,7 @@ nav {
 	line-height: 60px;
 }
 
-#website2 {
+#greenisac {
   display: block;
   float: right;
   padding: 0 50px;
@@ -94,27 +184,22 @@ nav ul {
 	
 nav ul li {
 	margin: 23px;
-  padding: -20px;
+ padding: -20px;
 	display: block;
 	float: left;
-	background-color: #254441;
 	}
 
 nav a {
 	display: block;
 	padding: 14px 20px;	
-	color: whitesmoke;
+	color: white;
 	font-size: 17px;
 	text-decoration: none;
 }
 
 nav ul li ul li:hover {
    background: black; 
-  }
-
-nav a:hover { 
-	background-color: black; 
-}
+ }
 
 nav ul ul {
 	display: none;
@@ -130,55 +215,88 @@ nav ul li:hover > ul {
   width: auto;
   margin: 0 auto;
   padding: 20px;
-  margin-inline: 50px;
+  margin-inline: 80px;
   display: block;
-  color: whitesmoke;  
-  font-size: 30px;
-  text-align: center;
- }
-
- .albums{
-  width: 100%;
-  margin: 0 auto;
-  margin-left: 100px;
-}
-
-.videos{
-  width: 100%;
-  margin: 0 auto;
-  margin-left: 50px;
- }
- 
- .pictures {
-  width: 100%;
-  margin: 0 auto;
-  margin-left: 50px;
- }
- 
- .click{
-  text-align: right;
-  font-size: 20px;
-  margin-left: 500px;
-}
-
- .about{
-  width: auto;
-  margin: 0 auto;
-  padding: 50px;
-  display: block;
-  margin-inline: 50px;
-  text-align: center;
   color: white;  
-  width: auto;
   font-size: 30px;
+  text-align: center;
  }
+	
+	.discography {
+  text-align: center;
+		 width: 100%;
+}
 
+	#disco{
+		width: 100%;
+		margin: 0 auto;
+		padding: 300px;
+		margin-top: -300px;
+		margin-left: 10px;
+	}
 
-/* Media Queries-------------------------*/
+	.media {
+		text-align: center;
+		width: 100%;
+	}
+
+	.media-h2 {
+	position: relative;
+	top: -200px;
+	left: 15px;
+}
+	
+#videos{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -200px;
+	margin-left: 10px;
+}
+
+#pictures{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.about{
+	width: auto;
+	margin: 0 auto;
+	padding: 50px;
+	display: block;
+	margin-inline: 80px;
+	text-align: center;
+	color: white;  
+	font-size: 30px;
+}
+
+.contact{ 
+	background-color:#212121;
+	width: 300px;
+	border: 15px;
+	padding: 50px;
+	margin: 20px;
+	font-size: 25px;
+
+}
+.contact-header {
+	position: relative;
+	bottom: 100px;
+	left: 500px;
+}
+
+.subcribe{
+	position: relative;
+	width: 300px;
+	bottom: 500px;
+	left: 700px;
+}
+/* Media Queries For Desktop & Mobiles__________________*/
 
 @media all and (max-width : 768px) {
 
-	#website1 {
+	#orchestra {
 		display: block;
 		padding: 0;
 		width: 100%;
@@ -186,7 +304,7 @@ nav ul li:hover > ul {
 		float: none;
 	}
 
-  #website2 {
+  #greenisac {
 		display: block;
 		padding: 0;
 		width: 100%;
@@ -305,12 +423,6 @@ td {
   margin: 0 auto;
   margin-left: 10px;
  }
-
- .click{
-  text-align: right;
-  margin-left: 70px;
-  font-size: 15px;
-}
 
 .about{
   width: auto;
