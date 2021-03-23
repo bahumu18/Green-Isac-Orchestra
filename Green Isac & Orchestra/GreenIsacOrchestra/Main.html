@@ -1,61 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Green Isac Orchestra</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="Main.css"/>
-  <script src="script.js"></script>
 </head>  
  
   <body>
 
-    <nav>
-      <div id="orchestra">Green Isac Orchestra</div>
-      <div id="greenisac">
-        <a href="#greenisac">Green Isac</a>
-      </div>
-
-      <label for="drop" class="toggle">Menu</label>
-      <input type="checkbox" id="drop" />
-          <ul class="menu">
+    <header>
+    <div id="textbox" class="header">
+      <div id="orchestra">GREEN ISAC ORCHESTRA</div>
+      <div class="container">
+        <nav>
+          <ul>
             <li><a href="#news">News</a></li>
             <li><a href="#discography">Discography</a></li>
             <li><a href="#media">Media</a></li>
-            <li><a href="#technical">Technical Solution</a></li>
             <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>              
+            <li><a href="#contact">Contact</a></li>     
+            <li><a href="#greenisac">Green Isac</a></li>
           </ul>
       </nav>
-
+      </div>
+    </div>
+    </header>
+      
       <div class="slideshow-container">
-
-        <div class="mySlides fade">
-          <img src="Images/Orchestra13.JPG" style="width:100%">
+        <div class="mySlides fade"><a href="#media">
+          <img src="Images/Orchestra13.JPG" style="width:100%" height="800px"></a>
         </div>
         
-        <div class="mySlides fade">
-          <img src="Images/victoria_med.jpeg" style="width:100%">
+        <div class="mySlides fade"> <a href="#disco">
+          <img src="Images/orchestra.jpg" style="width:100%" height="800px"></a>
         </div>
         
-        <div class="mySlides fade">
-          <img src="Images/orchestra.jpg" style="width:100% height700px">
+        <div class="mySlides fade"> <a href="#media">
+          <img src="Images/gio_med-1.jpg" style="width:100%" height="800px"></a>
         </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
         </div>
-        <br> 
+        <br>
         
         <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot"></span>
+          <span class="dot"></span> 
+          <span class="dot"></span> 
         </div>
-
-
+    
       <div class="news">
         <a name="news"><h2>NEWS</h2></a>    
       <p>
@@ -74,32 +67,31 @@
         </div>
         
         <div class="discography">
-        <table id="disco" style="width:100%">
+        <table style="width:100%">
           <a name="discography"><h2>DISCOGRAPHY</h2></a>
       
           <tr>
             <td>
               <a href="Discobar.html">
-                <h2 class="albums">Bar</h2>
+                <h4 class="albums">Bar</h4>
                 <img src="Images/bar.jpg" style="width:350px" height="350px"/>
               </a>
             </td>
       
             <td>
               <a href="DiscoIsac.html">
-              <h2 class="albums">Green Isac Orchestra</h2>
+              <h4 class="albums">Green Isac Orchestra</h4>
               <img src="Images/orchestra.jpg" style="width:350px" height="350px"/>
               </a>
             </td>
           </tr>
+
         </table>
         </div>
 
         <div class="media">
           <table id="videos" style="width:100%"> 
-            <a name="media">
-              <h2 class="media-h2">MEDIA</h2>
-            </a>
+            <a name="media"><h2 class="media-h2">MEDIA</h2></a>
          
             <tr>
               <td><img src="Images/don.jpg" style="width:680px" height="400px"/></td>
@@ -107,9 +99,7 @@
             </tr>
          
               <td><a class="click" href="Videos.html">
-                <h3>Click For Videos</a>
-                </h3></td>
-         
+                <h3>Click For Videos</a></h3></td>
             </table>
 
             <table id="pictures" style="width:100%" >
@@ -132,8 +122,6 @@
       the group expanded to an instrumental live quintet with Tov Ramstad, 
       Frode Larsen and Jo Wang. For some years, the Green Isac Orchestra has had a concert
        series at Kampen Bistro in Oslo under the name Etnotronica.
-    </p>
-     <p>
       Green IsacOrchestra A Norwegian instrumental band blending electronic and ethnic
       instruments alike into kinetic rhythms, sometimes electronically fueled, and often 
       acoustically driven, with accents from processed guitars and quirky synths, 
@@ -143,23 +131,6 @@
     </p>
 </div>
 
-
-<div class="contact">
-  <a name="contact"><h2 class="contact-header">CONTACT</h2></a>
-  <div>
-      Green Isac Orchestra is a Norwegian music group, which was originally started 
-      by Andreas Eriksen and Morten Lund in 1990, under the name Green Isac. In 2007, 
-      the group expanded to an instrumental live quintet with Tov Ramstad, 
-      Frode Larsen and Jo Wang. For some years, the Green Isac Orchestra has had a concert
-       series at Kampen Bistro in Oslo under the name Etnotronica.
-  </div>
-  
-  <form class="subcribe">
-      <label for="subcribe">Subcribe</label>
-      <input id="input" name="input" placeholder="Enter Email" type="text">
-        <input type="submit" value="PUSH">
-  </form>
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>
