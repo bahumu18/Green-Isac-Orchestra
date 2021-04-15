@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-us">
  
-<head>
+  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initail-scale=1.0">
           <title>Green Isac Orchestra</title>
           <link rel="stylesheet" href="Index.css"/>
-          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600&display=swap" rel="stylesheet">          
+          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600&display=swap" rel="stylesheet">    
+          <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
   </head>   
- 
  <body>
-       <header>
-        <div id="textbox" class="myHeader">
-          <h1 class="alignleft">GREEN ISAC ORCHESTRA</h1> 
-            <div class="container">
-                 <nav>
-                  <ul>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#discography">Discography</a></li>
-                    <li><a href="#media">Media</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>     
-                    <li><a href="#greenisac">Green Isac</a></li>
-                  </ul>
-                 </nav>
-               </div>
-               </div>
-      </header>
+       
+ <!---Header Start-->
+  <header class="header">
+    <h1 class="alignleft">GREEN ISAC ORCHESTRA</h1> 
+    <div class="container-fluid">
+        <nav class="nav">
+
+            <div class="nav__button">
+                <span class="nav__icon"></span>
+            </div>
+
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+                <li class="nav-item"><a href="#discography" class="nav-link">Discography</a></li>
+                <li class="nav-item"><a href="#media" class="nav-link">Media</a></li>
+                <li class="nav-item"><a href="#aboutus" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#greenisac" class="nav-link">Green Isac</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+ <!---Header End-->
   
+
+   <!---Slide Container Start-->
          <div class="imagecard" style="display: none">
          <img src="Images/orchestra.jpg" style="width:100%"/>
          </div>
@@ -48,24 +56,24 @@
             <span class="dot"></span> 
             <span class="dot"></span> 
           </div>
-          
- 
-	 
-	 
-	  <div class="wrapper">
+   <!---Slide Container End-->
+
+    <!---News Start-->
+        <div class="wrapper">
           <a name ="news"><h2>News</h2></a>
           
           <div id="newstext">
             <iframe src="https://newsgreenisac.wordpress.com/"></iframe>
           </div>
-            
           </div>
+    <!---News End-->
 
+
+    <!---Discography Start-->
       <div class="wrapper" id="disco">
         <a><h2 class="discoheading">DISCOGRAPHY</h2></a>
       
         <table id="table" style="width:100%">
-         
           <tr id="albumRow">
             <td id= "al" onclick="album1()"><img src="Images/bar.jpg" style="width:400px" height="400px"/><h3>Bar</h3></td>
             <td id= "al" onclick="album2()"><img src="Images/orchestra.jpg" style="width:400px" height="400px"/><h3>Green Isac Orchestra</h3></td>
@@ -94,13 +102,12 @@
             <iframe id="myFrameisac" src="https://open.spotify.com/embed/album/1RM3P46luXAeArgl6huai9" 
             width="400" height="380" frameborder="0" allowtransparency="true" 
             allow="ecrypted-media"></iframe>
-          
          </div>
         
-      <div onclick="forsvinn2()" id="isac2">
+       <div onclick="forsvinn2()" id="isac2">
           <div class="album">
             <img src="Images/orchestra.jpg" style="width:400px"/>
-          </div>
+           </div>
           
           <div class="descriptiontext">
               <p>Green Isac Orchestra
@@ -122,11 +129,14 @@
             
           </div>
       </div>
+     <!---Discography End-->
 
+
+         <!---Media Start-->
         <div class="wrapper" id="media">
             <a name="media"><h2>MEDIA</h2></a>
             
-
+            <!---Videos-->
             <div class="carousel">
               <ul class="carousel__list">
                 <li class="carousel__item" data-pos="-2">
@@ -165,56 +175,59 @@
               </ul>
           </div>
 
-
-    <div class="pic-container">
-
-      <div class="feature" id="feature">
-        <figure class="featured-item image-holder r-3-2 transition"></figure>
-      </div>
-	
-	<div class="gallery-wrapper">
-		<div class="gallery">
-
-      <div class="item-wrapper">
-        <figure class="gallery-item image-holder r-3-2 transition"></figure>
-      </div>
-				
-			 <div class="item-wrapper">
-        <figure class="gallery-item image-holder r-3-2 transition"></figure>
-      </div>
-      
-      <div class="item-wrapper">
-        <figure class="gallery-item image-holder r-3-2 transition"></figure>
-      </div>
-      
-      <div class="item-wrapper">
-        <figure class="gallery-item image-holder r-3-2 transition"></figure>
-      </div>
-      
-      <div class="item-wrapper">
-        <figure class="gallery-item image-holder r-3-2"></figure>
-      </div>
-
-      <div class="item-wrapper">
-        <figure class="gallery-item image-holder r-3-2 transition"></figure>
-      </div>
-      
-      <div class="item-wrapper">
-        <figure class="gallery-item image-holder r-3-2 transition"></figure>
-      </div>
-       
-      </div>
-	</div>
-	
-	<div class="controls">
-		<button class="move-btn left">&larr;</button>
-		<button class="move-btn right">&rarr;</button>
-	</div>
-	<div id="lukke" style="background-color: blueviolet;" onclick="lukk"></div>
-</div>
-</div>
+          <!---Pictures-->
+          <div style="text-align:center">
+            <h2 style="color: blanchedalmond;">Gallery</h2>
+            
+          </div>
+          <div class ="container" id="container">
+             <div onclick="steng()"class="closebtn"> &times;
+            </div>
+            
+              <img onclick="steng()" id="expandedImg" >
+          
+              
+              <div id="imgtext">   </div>
+              <a id="lastned" target="_blank" download>Last ned </a>
+            </div>
+          
+          <!-- The four columns -->
+          <div id="supercontainer">
+          
+            <div class="columns" id="column1" onmouseover="myOverFunction1()">
+              
+              <img id="1" src="images/Orchestra14.JPG" alt="I heisen"  onclick="myFunction(this);">
+            
+            </div>
+            <div class="columns" id="column2" onmouseover="myOverFunction2()">
+              <img id="2"src="images/GI 15.jpeg"  alt="tekst her"  onclick="myFunction(this);">
+            </div>
+            
+            <div class="columns" id="column3" onmouseover="myOverFunction3()">
+              <img id="3" src="images/Orchestra15.JPG" alt="tekst her" onclick="myFunction(this);">
+            </div>
+          
+            
+              <div class="columns" id="column5" onmouseover="myOverFunction4()">
+                <img id="4" src="images/victoria_med.jpeg" alt="tekst her" onclick="myFunction(this);">
+              </div>
+          
+              <div class="columns" id="column4" onmouseover="myOverFunction5()">
+                <img id="5" src="images/Orchestra13.JPG" alt="tekst her"  onclick="myFunction(this);">
+              </div>
+             
+                <div class="columns"  id="column6" onmouseover="myOverFunction6()">
+                  <img id="6" src="images/GIOband-1.jpg" alt="tekst her"  onclick="myFunction(this);">
+                </div>
+                <div class="columns"  id="column7" onmouseover="myOverFunction7()">
+                  <img id="7" src="images/gio_med-1.jpg"  alt="tekst her"  onclick="myFunction(this);">
+                </div>
+          </div>
+    </div>
+  <!---Media End-->
 
          
+           <!---About Start-->
             <div class="wrapper" id="about">
             <h2 class="aboutheading">About Us</h2>
               <p id="abouttext">
@@ -231,7 +244,74 @@
                 -Angel Romero -PROGRESSIVE ROCK CENTRAL.
               </p>
               </div>
-         
+            <!---About End-->
+
+
+            <!---Contact Start-->
+              <div class="contact" style="height: 700px;" style="width: 100%;">
+                <div id="textcontainer">
+                  <h2 id="contactheading">Contact us</h2>
+                </div>
+                
+                <table>
+                  <tr>
+                    <th id="Cinfo">
+                      <a href="">
+                        <img src="images/information logo.png" style="width: 50px;">
+                      </a> General questions or contact
+                    </th>
+                    <th id="ForI">
+                      Follow on Facebook or Instagram
+                    </th>
+                  </tr>
+          
+                  <tr>
+                    <th>
+                      <a href="" id="Email">info@greenisac.no</a>
+                    </th>
+                    <th>
+                      <a href="" id="Face">
+                        <img src="images/facebook logo.png" style="width: 50px;">
+                      </a>
+                      <a href="" id="Insta">
+                        <img src="images/instagram logo.png" style="width: 50px;">
+                      </a>
+                    </th>
+                  </tr>
+          
+                  <tr>
+                    <th>
+                      <a href="" id="Insta2">
+                        <img src="images/instagram logo.png" style="width: 50px;">
+                      </a>
+                    </th>
+                  </tr>
+          
+                  <tr>
+                    <th id="SPinfo">
+                      <a href="">
+                        <img src="images/information logo.png" style="width: 50px;">
+                      </a> Access to Spotted Peccary site
+                    </th>
+                  </tr>
+                  
+                  <tr>
+                    <th>
+                      <a href="https://spottedpeccary.com/artists/green-isac/" id="SP">SPOTTED PECCARY</a>
+                    </th>
+                    <th>
+                      <a href="" id="Face2">
+                        <img src="images/facebook logo.png" style="width: 50px;">
+                      </a>
+                    </th>
+                  </tr>
+                </table>
+              </div>
+            <!---Contact End-->
+
+
+ <!----Jquery---->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>             
 <script src="Script.js"></script>
  </body>  
 </html>
