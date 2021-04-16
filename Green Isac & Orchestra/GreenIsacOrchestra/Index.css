@@ -338,6 +338,13 @@ margin-bottom: -150px;
 /*-------------
    Slideshow
  -------------*/
+
+ #underheader{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+}
+
 .mySlides {
   display: none;
 }
@@ -355,7 +362,11 @@ border-bottom:rgb(0, 0, 0);
 border-bottom: solid;
  margin: auto;
 }
-
+.slideshow-container img{
+  object-fit: cover;
+ width: 100%;
+ height: 600px;
+}
 
 /*The dots/bullets/indicators*/
 .dot {
