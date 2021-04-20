@@ -747,7 +747,7 @@ float: left;
 
 /*Contact page buttons*/
 #Cinfo {
-  color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
   left: 50%;
 }
 
@@ -765,12 +765,13 @@ float: left;
 #SPinfo {
   color: rgb(243, 243, 243);
   left: 50%;
+  font-size: 12px;
 }
 
 #SP {
-  border: 2px solid rgb(243, 243, 243);
+  border: 2px solid rgb(12, 12, 12);
   border-radius: 30px;
-  color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
   font-size: 16px;
   font-family: sans-serif;
   padding: 15px 15px 14px;
@@ -804,6 +805,7 @@ th {
 }
 
 #ForI {
-  color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
   right: 50%;
+  font-size: 12px;
 }
