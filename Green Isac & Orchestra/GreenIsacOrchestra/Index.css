@@ -193,11 +193,6 @@ body{
   transform: translateX(0);
 }
 
-/*
-.nav-item {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-}
-*/
 
 .nav-link {
   display: block;
@@ -230,9 +225,9 @@ body{
   margin-right: 1rem;
 }
 
-/*---------------
- Album
--------------*/
+/*-----------
+   Album
+------------*/
 #albumRow{
  display: inline-block;
  margin-left: 250px;
@@ -241,7 +236,6 @@ body{
 .album {
 display: flex;
 }
-
 
 #myFrameisac iframe {
   display: flex;
@@ -323,24 +317,19 @@ margin-right: 10%;
   height: 100%;
   border: solid 5px black;
 }
+
 #newstext iframe{
- 
   width: 100%;
   height: 900px;
-margin-top: -150px;
-margin-bottom: -150px;
-
-
-
+  margin-top: -150px;
+  margin-bottom: -150px;
  border: 0;
 }
-
 
 
 /*-------------
    Slideshow
  -------------*/
-
  #underheader{
   width: 100%;
   height: 70px;
@@ -364,6 +353,7 @@ border-bottom:rgb(0, 0, 0);
 border-bottom: solid;
  margin: auto;
 }
+
 .slideshow-container img{
   object-fit: cover;
  width: 100%;
@@ -390,7 +380,7 @@ border-bottom: solid;
    Videos
 ----------------*/
 /*arrows*/
-.arrow__left {
+.arrow__left{
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -405,7 +395,7 @@ border-bottom: solid;
   opacity: 0.5;
 }
 
-.arrow__right {
+.arrow__right{
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -420,25 +410,25 @@ border-bottom: solid;
   opacity: 0.5;
 }
 
-.carousel {
-display: flex;
-width: 100%;
-height: 500px;
-align-items: center;
-font-family: Arial;
+.carousel{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  font-family: Arial;
 }
 
-.carousel__list {
-display: flex;
-list-style: none;
-position: relative;
-width: 100%;
-height: 400px;
-justify-content: center;
-perspective: 300px;
+.carousel__list{
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  perspective: 300px;
 }
 
-.carousel__item {
+.carousel__item{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -510,8 +500,6 @@ perspective: 300px;
   z-index: 3;
 }
 
-
-
 /*Pictures*/
 #picturediv {
 margin: auto;
@@ -529,7 +517,8 @@ margin: auto;
   height: 100px;
   text-align:center;
 }
-#supercontainer::-webkit-scrollbar {
+
+#supercontainer::-webkit-scrollbar{
   display: none;
 }
 
@@ -545,134 +534,109 @@ margin: auto;
   animation-duration: 1s;
   background-color: #8b98a3;
   border-bottom: 5px solid black;
-  
 }
 
-
 /* The grid:  columns that floats next to each other */
-#column1 {
+#column1{
  width: 40%;
  height: 50%;
  float: left;
 }
 
-#column2 {
+#column2{
   width: 30%;
  height: 35%;
  float: left;
 }
  
- #column3 {
+ #column3{
 width: 30%;
  height: 35%;
  float: left;
 }
 
 /*rad 2*/
-#column4 {
+#column4{
  float: left;
  width: 60%;
  height: 40%;
- }
+}
 
-#column5 {
+#column5{
  width: 40%;
  height: 25%;
- }
- 
+}
 
 /*rad 3*/
-#column6 {
+#column6{
  width: 50%;
  height: 30%;
  float: left;
- }
+}
  
- #column7 {
+ #column7{
  width: 50%;
  height: 30%;
  float: left;
-  
- }
+}
 
  /*RAD 4*********/
-
-#column8 {
+#column8{
   width: 25%;
   height: 25%;
-
   float: left;
-
 }
 
-#column9 {
-
+#column9{
   width: 25%;
   height: 25%;
-
   float: left;
-
 }
-#column10 {
+
+#column10{
   width: 25%;
   height: 25%;
-
   float: left;
-
 }
 
-#column11 {
-
+#column11{
   width: 25%;
   height: 25%;
-
   float: left;
-
 }
 
-/*rad 5     */
+/*rad 5***/
 #column12{
   width: 50%;
   height: 45%;
-float: right;
-  
-
+  float: right;
 }
 
-#column13 {
-
+#column13{
   width: 25%;
   height: 30%;
-
   float: left;
 
 }
-#column14 {
+#column14{
   width: 25%;
   height: 30%;
-
   float: left;
-
 }
+
 /*rad 6*/
-#column15 {
-
+#column15{
   width: 50%;
   height: 30%;
-
   float: left;
-
 }
-#column16 {
 
+#column16{
 width: 50%;
 height: 15%;
-
 float: left;
-
 }
- /*
- 
+
 /* Style the images inside the grid */
 .columns img {
   opacity: 0.8;
@@ -680,11 +644,11 @@ float: left;
   border:solid black;
   width: 100%;
   height: 100%;
-   object-fit: cover;
-   filter: blur(0.8px);
-   filter: gray;
-   transition-duration: 0.6s;
-   -webkit-filter: grayscale(1); 
+  object-fit: cover;
+  filter: blur(0.8px);
+  filter: gray;
+  transition-duration: 0.6s;
+  -webkit-filter: grayscale(1); 
 }
 
 .columns img:hover {
@@ -694,10 +658,9 @@ float: left;
  -webkit-filter: grayscale(0); 
 }
 
-
 /* Clear floats after the columns */
 /* The expanding image container */
-.container {
+.container{
   position: relative;
   display: none;
  text-align:center;
@@ -706,20 +669,18 @@ float: left;
 }
 
 /* Expanding image text */
-#imgtext {
- 
-  bottom: 15px;
-  left: 15px;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+#imgtext{
+ bottom: 15px;
+ left: 15px;
+ color: rgb(0, 0, 0);
+ font-size: 20px;
 }
 
-  #expandedImg{
-    height: 500px;
-    border:solid black;
-    animation-name: zoom;
-    
-  animation-duration: 1s;
+#expandedImg{
+ height: 500px;
+ border:solid black;
+ animation-name: zoom;
+ animation-duration: 1s;
 }
 
 @keyframes zoom {
@@ -736,22 +697,24 @@ float: left;
   100% {opacity: 1;}
 }
 
+
 /* Closable button inside the expanded image--><span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>--!   */
 .closebtn {
-  top: 10px;
-  color: rgb(0, 0, 0);
-  font-size: 55px;
-  cursor: pointer; 
+ top: 10px;
+ color: rgb(0, 0, 0);
+ font-size: 55px;
+ cursor: pointer; 
 }
 
-
-/*Contact page buttons*/
+/*-----------------
+   Contact 
+---------------------*/
 #Cinfo {
   color: rgb(0, 0, 0);
   left: 50%;
 }
 
-#Email {
+#Email{
   border: 2px solid rgb(243, 243, 243);
   border-radius: 30px;
   color: rgb(243, 243, 243);
@@ -780,11 +743,11 @@ float: left;
 }
 
 #Face2 {
-  visibility: hidden;
+ visibility: hidden;
 }
 
 #Insta2 {
-  visibility: hidden;
+ visibility: hidden;
 }
 
 table {
