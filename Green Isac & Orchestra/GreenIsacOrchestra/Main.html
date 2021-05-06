@@ -1,427 +1,354 @@
 <!DOCTYPE html>
 <html lang="en-us">
- 
-  <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initail-scale=1.0">
-          <title>Green Isac Orchestra</title>
-          <link rel="stylesheet" href="Index.css"/>
-          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600&display=swap" rel="stylesheet">    
-          <script src="https://kit.fontawesome.com/b699c21610.js" crossorigin="anonymous"></script>
-  </head>   
-  <body>
-       
- <!---Header Start-->
-  <header class="header">
-    <h1 class="aligncenter">GREEN ISAC ORCHESTRA</h1> 
-    <div class="container-fluid">
-        <nav class="nav">
-         <div class="nav__button">
-                <span class="nav__icon"></span>
-            </div>
 
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
-                <li class="nav-item"><a href="#discography" class="nav-link">Discography</a></li>
-                <li class="nav-item"><a href="#media" class="nav-link">Media</a></li>
-                <li class="nav-item"><a href="#aboutus" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="#greenisac" class="nav-link">Green Isac</a></li>
-            </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
+    <title>Green Isac Orchestra</title>
+    <link rel="stylesheet" href="Index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600&display=swap" rel="stylesheet">
 
-            <ul class="icons">
-              <li class="icon"><i class="fas fa-envelope-square"></i></li>
-              <li class="icon"><i class="fab fa-facebook-f"></i></li>
-              <li class="icon"><i class="fab fa-instagram"></i></li>
-          </ul>
-        </nav>
+    <!---Header <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> Start-->
+    <script src="https://kit.fontawesome.com/b699c21610.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!---Header Start-->
+    <header class="header">
+        <h1 class="aligncenter">GREEN ISAC ORCHESTRA</h1>
+        <div class="container-fluid">
+            <nav class="nav">
+                <div class="nav__button">
+                    <span class="nav__icon"></span>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+                    <li class="nav-item"><a href="#discography" class="nav-link">Discography</a></li>
+                    <li class="nav-item"><a href="#media" class="nav-link">Media</a></li>
+                    <li class="nav-item"><a href="#aboutus" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="https://www.greenisac.no/" class="nav-link">Green Isac</a></li>
+                </ul>
+
+                <ul class="icons">
+                    <li class="icon"><a href="mailto:info@greenisac.no"><i class="far fa-envelope"></i></a></li>
+                    <li class="icon"><a href="https://www.facebook.com/GreenIsac/"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="icon"><a href="https://www.instagram.com/green_isac_orchestra/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!---Header End-->
+
+
+    <!---Slide Container Start-->
+
+    <div id="slidecontainer" class="slideshow-container">
+        <div class="mySlides fade">
+            <a href="#media">
+                <img src="Images/Gio pic 1.jpg"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="#disco">
+                <img src="Images/Gio pic 2.jpg"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="#media">
+                <img src="images/Gio pic 3.jpg"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="#media">
+                <img src="images/Gio pic 4.jpg"></a>
+        </div>
     </div>
-</header>
-<!---Header End-->
-  
+    <br>
 
-   <!---Slide Container Start-->
-   <div id="underheader"></div>
-
-          <div class="slideshow-container">
-          <div class="mySlides fade"><a href="#media">
-            <img src="Images/orchestra.jpg" width="300px" height="300px"></a>
-          </div>
-          
-          <div class="mySlides fade"> <a href="#disco">
-            <img src="Images/bar.jpg" width="300px" height="300px"></a>
-          </div>
-          </div>
-          <br>
-          
-          <div style="text-align:center">
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-          </div>
-   <!---Slide Container End-->
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <!---Slide Container End-->
 
     <!---News Start-->
+    <a name="news">
         <div class="wrapper">
-          <a name ="news"><h2>News</h2></a>
-          
-          <div id="newstext">
-            <iframe src="https://newsgreenisac.wordpress.com/"></iframe>
-          </div>
-          </div>
+            <h2>News</h2>
+    </a>
+    <div id="newstext">
+        <iframe src="https://newsgreenisac.wordpress.com/"></iframe>
+    </div>
+    </div>
     <!---News End-->
 
 
     <!---Discography Start-->
-      <div class="wrapper" id="disco">
-        <a><h2 class="discoheading">DISCOGRAPHY</h2></a>
-      
-        <table id="table" style="width:100%">
-          
-          <tr id="albumRow">
-            <td id= "al" onclick="album1()"><img src="Images/bar.jpg" style="width:400px" height="400px"/></td>
-            <td id= "al" onclick="album2()"><img src="Images/orchestra.jpg" style="width:400px" height="400px"/></td>
-          </tr>
-        </table>
-       
-        <div id="isac">
-          <div class="album">
-              <div onclick="forsvinn()" id="close">&times;</div>
-              <iframe id="myFrameisac" src="https://open.spotify.com/embed/album/1RM3P46luXAeArgl6huai9" 
-            width="400" height="380" frameborder="0" allowtransparency="true" 
-            allow="ecrypted-media"></iframe>
-              <div id="albuminfo">
-                  <h3 class="albumheading">Bar</h3>
-                  <p class="albumtext">Bar I don’t know how long-time fans of Green Isac will greet this new
-                    direction, but as someone who has just discovered them via this release, 
-                   it’s made me want to hear what I’ve been missing all these years. 
-                   This has taken its place as a wind-down, end-of-day listen for me,
-                   soothing enough in its rich world-music organics to take the edge off,
-                    but with just enough vibrancy and vivacity to not simply slip into the 
-                    background. Listening close reaps some nice rewards as the production 
-                    work, as always the case with Spotted Peccary releases, is impeccable.
-                     Great, refreshing work from Green Isac Orchestra.</p>
-                  <table class="iconsIntable">
-                      <tr>
-                          <td>
-                              <a href="https://open.spotify.com/album/6PxFe8WnDteBR7PJN5vUBO" target="_blank">
-                                  <img src="images/spotify.png" width="40px" style="margin-left: 15px;" alt="">
-                              </a>
-                          </td>
-                          <td>
-                              <a href="https://music.apple.com/us/album/etnotronica/376078059" target="_blank">
-                                  <img src="images/itunes.png" width="40px" style="margin-left: 15px;" alt="">
-                              </a>
-                          </td>
-                          <td>
-                              <a href="https://tidal.com/browse/album/8524402" target="_blank">
-                                  <img src="images/tidal.png" width="40px" style="margin-left: 15px;" alt="">
-                              </a>
-                          </td>
-                          <td>
-                              <a href="https://music.amazon.com/albums/B003PTABEI?marketplaceId=ATVPDKIKX0DER&musicTerritory=US" target="_blank">
-                                  <img src="images/amazon.png" width="40px" style="margin-left: 15px;" alt="">
-                              </a>
-                          </td>
-                          <td>
-                              <a href="https://music.youtube.com/playlist?list=OLAK5uy_kA6Tq5sbka2VmWKmDHMAQsJFQnOUp42cQ&feature=share" target="_blank">
-                                  <img src="images/youtube.png" width="40px" style="margin-left: 15px;" alt="">
-                              </a>
-                          </td>
-                          <td>
-                              <a href="https://bigdipper.no/vinyl/elektronisk/lp/green-isac-orchestra-bar-lp-kom-spm1305-p0000075302" target="_blank">
-                                  <img src="images/dipper.png" width="40px" style="margin-left: 15px;" alt="">
-                             </a>
-                          </td>
-                      </tr>
-                  </table>
-              </div>
-          </div>
-      </div>
-      
-      <div id="isac2">
-        <div class="album">
-            <div onclick="forsvinn2()" id="close">&times;</div>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/etnotronica/376078059"></iframe>
-            <div id="albuminfo">
-                <h3 class="albumheading">Green Isac Orchestra</h3>
-                <p class="albumtext">Green Isac Orchestra
-                  I don’t know how long-time fans of Green Isac will greet this new 
-                  direction, but as someone who has just discovered them via this release, 
-                  it’s made me want to hear what I’ve been missing all these years. 
-                  This has taken its place as a wind-down, end-of-day listen for me,
-                  soothing enough in its rich world-music organics to take the edge off,
-                   but with just enough vibrancy and vivacity to not simply slip into the 
-                   background. Listening close reaps some nice rewards as the production 
-                   work, as always the case with Spotted Peccary releases, is impeccable.
-                    Great, refreshing work from Green Isac Orchestra.</p>
-            <table class="iconsIntable">
-              <tr>
-              <td>
-                <a href= "https://open.spotify.com/album/6PxFe8WnDteBR7PJN5vUBO" target="_blank" >
-                <img src="images/spotify.png" width="40px" alt="">
-              </a>
-              </td>
-              <td>
-                <a href="https://music.apple.com/us/album/etnotronica/376078059"  target="_blank" >
-                <img src="images/itunes.png" width="40px" alt="">
-                </a>
-              </td>
-              <td>
-                <a href="https://tidal.com/browse/album/8524402"  target="_blank">
-                  <img src="images/tidal.png" width="40px" alt="">
-                  </a>
-                </td>
-              <td>
-                <a href="https://music.amazon.com/albums/B003PTABEI?marketplaceId=ATVPDKIKX0DER&musicTerritory=US" target="_blank" >
-                <img src="images/amazon.png" width="40px"alt="">
-                </a>
-              </td>
-              <td>
-                <a href="https://music.youtube.com/playlist?list=OLAK5uy_kA6Tq5sbka2VmWKmDHMAQsJFQnOUp42cQ&feature=share" target="_blank">
-                <img src="images/youtube.png" width="40px" alt="">
-                </a>
-              </td>
-            </tr>
-          </table>
-          </div>
-      </div>
-      </div>
-      </div>
-     <!---Discography End-->
+    <a name="discography">
+        <div class="wrapper" id="disco">
+            <h2 class="discoheading">DISCOGRAPHY</h2>
+
+            <table id="table" style="width:100%">
+
+                <tr id="albumRow">
+                    <td id="al" onclick="album1()"><img src="Images/bar.jpg"></td>
+                    <td id="al" onclick="album2()"><img src="Images/orchestra.jpg"></td>
+                </tr>
+            </table>
+
+            <div id="isac">
+                <div class="album">
+                    <div onclick="forsvinn()" id="close">&times;</div>
+                    <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                        src="https://embed.music.apple.com/us/album/bar/1539082528"></iframe>
+                    <div id="albuminfo">
+                        <h3 class="albumheading">Bar</h3>
+                        <p class="albumtext">Bar I don’t know how long-time fans of Green Isac will greet this new direction, but as someone who has just discovered them via this release, it’s made me want to hear what I’ve been missing all these years. This has taken its
+                            place as a wind-down, end-of-day listen for me, soothing enough in its rich world-music organics to take the edge off, but with just enough vibrancy and vivacity to not simply slip into the background. Listening close reaps
+                            some nice rewards as the production work, as always the case with Spotted Peccary releases, is impeccable. Great, refreshing work from Green Isac Orchestra.</p>
+                        <table class="iconsIntable">
+                            <tr>
+                                <td>
+                                    <a href="https://open.spotify.com/album/1RM3P46luXAeArgl6huai9?utm_source=embed_v2&go=1&play=1&nd=1" target="_blank">
+                                        <img src="images/spotify.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://music.apple.com/us/album/bar/1539082528" target="_blank">
+                                        <img src="images/itunes.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://tidal.com/browse/album/161161717" target="_blank">
+                                        <img src="images/tidal.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://www.amazon.com/bar-Green-Isac-Orchestra/dp/B08MXF6X9R/ref=sr_1_5?dchild=1&keywords=Green+Isac+Orchestra&qid=1619086040&s=dmusic&search-type=ss&sr=1-5" target="_blank">
+                                        <img src="images/amazon.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_mdBoHJRl74v2oMy3XB-R2mjbbl-CP4_Ck" target="_blank">
+                                        <img src="images/youtube.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://bigdipper.no/spotted-peccary/kom-spm1305/green-isac-orchestra-bar-lp" target="_blank">
+                                        <img src="images/bigdipper.png" width="50px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="isac2">
+                <div class="album">
+                    <div onclick="forsvinn2()" id="close">&times;</div>
+                    <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                        src="https://embed.music.apple.com/no/album/green-isac-orchestra/1052151999"></iframe>
+                    <div id="albuminfo">
+                        <h3 class="albumheading">Green Isac Orchestra</h3>
+                        <p class="albumtext">Green Isac Orchestra I don’t know how long-time fans of Green Isac will greet this new direction, but as someone who has just discovered them via this release, it’s made me want to hear what I’ve been missing all these years. This
+                            has taken its place as a wind-down, end-of-day listen for me, soothing enough in its rich world-music organics to take the edge off, but with just enough vibrancy and vivacity to not simply slip into the background. Listening
+                            close reaps some nice rewards as the production work, as always the case with Spotted Peccary releases, is impeccable. Great, refreshing work from Green Isac Orchestra.</p>
+                        <table class="iconsIntable">
+                            <tr>
+                                <td>
+                                    <a href="https://music.apple.com/no/album/green-isac-orchestra/1052151999" target="_blank">
+                                        <img src="images/itunes.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://tidal.com/browse/album/52999839" target="_blank">
+                                        <img src="images/tidal.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://www.amazon.com/Green-Isac-Orchestra/dp/B0172ARF4E" target="_blank">
+                                        <img src="images/amazon.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://music.youtube.com/playlist?list=PLCGUAEoTCuNtU_g6t5OiHqZlj3y9gQkij" target="_blank">
+                                        <img src="images/youtube.png" width="40px" style="margin-left: 15px;" alt="">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <!---Discography End-->
 
 
-         <!---Media Start-->
-        <div class="wrapper" id="media">
-            <a name="media"><h2>MEDIA</h2></a>
-            
-            <!---Videos-->
-            <div class="carousel">
-              <ul class="carousel__list">
-                <li class="carousel__item" data-pos="-2">
-                  <iframe class="youtubeVideo" width="300 " height="215"
-                  src="https://www.youtube.com/embed/7-mn-c-j-64?autoplay=0" 
-                  allowfullscreen ='true'>
-                </iframe></li>
-      
-                <li class="carousel__item" data-pos="-1">
-                  <iframe class="youtubeVideo" width="300 " height="215"
-                  src="https://www.youtube.com/embed/7-mn-c-j-64?autoplay=0" 
-                  allowfullscreen ='true'>
-                </iframe></li>
-      
-                <li class="carousel__item" data-pos="0">
-                  <iframe class="youtubeVideo" width="300 " height="215"
-                  src="https://www.youtube.com/embed/7-mn-c-j-64?autoplay=0" 
-                  allowfullscreen ='true'>
-                </iframe></li>
-      
-                <li class="carousel__item" data-pos="1">
-                  <iframe class="youtubeVideo" width="300 " height="215"
-                  src="https://www.youtube.com/embed/7-mn-c-j-64?autoplay=0" 
-                  allowfullscreen ='true'>
-                </iframe></li>
-      
-                <li class="carousel__item" data-pos="2">
-                  <iframe class="youtubeVideo" width="300 " height="215"
-                  src="https://www.youtube.com/embed/7-mn-c-j-64?autoplay=0" 
-                  allowfullscreen ='true'>
-                </iframe></li>
-      
-                <!--arrows-->
-                <div class="arrow__left"></div>
-                <div class="arrow__right"></div>
-              </ul>
-          </div>
+    <!---Media Start-->
+    <div class="media" id="media">
+        <a name="media">
+            <h2>MEDIA</h2>
+        </a>
+
+
+        <h2 class="w3-center">Video</h2>
+        <div class="w3-content w3-display-container">
+            <button style="height: 100px;" class="w3-button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <iframe class="latestVideoEmbed" vnum='0' cid="UCA_4K-74KhZ8dOjQVmZIqyA" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" vnum='1' cid="UCA_4K-74KhZ8dOjQVmZIqyA" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" vnum='2' cid="UCA_4K-74KhZ8dOjQVmZIqyA" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" vnum='3' cid="UCA_4K-74KhZ8dOjQVmZIqyA" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" vnum='4' cid="UCA_4K-74KhZ8dOjQVmZIqyA" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+
+            <iframe class="latestVideoEmbed" width="100%" height="600" src="https://www.youtube.com/embed/7-mn-c-j-64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" width="100%" height="600" src="https://www.youtube.com/embed/13lbSAFwmY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" width="100%" height="600" src="https://www.youtube.com/embed/vm372U1Ml3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" width="100%" height="600" src="https://www.youtube.com/embed/26h8n7eiDY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="latestVideoEmbed" width="100%" height="600" src="https://www.youtube.com/embed/GiM1kKZHkFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/62731939" class="latestVideoEmbed" width="100%" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <button style="height: 100px;" class="w3-button-right" onclick="plusDivs(1)">&#10095;</button>
         </div>
 
-          <!---Pictures-->
-          <div class="wrapper" id="picturediv" >
-            <div id="topmarg">
-            <h2 style="color: blanchedalmond;">Gallery</h2>
-          </div>
-          
-          <div class ="container" id="container">
-             <div onclick="steng()"class="closebtn"> &times;
-            </div>
-            
-              <img onclick="steng()" id="expandedImg" >
-          
-              
-              <div id="imgtext">   </div>
-              <a id="lastned" target="_blank" download>Last ned </a>
-            </div>
-          
-          <!-- The four columns -->
-          <div id="supercontainer">
-          
-            <div class="columns" id="column1" onmouseover="myOverFunction1()">
-              
-              <img id="1" src="images/Orchestra14.JPG" alt="I heisen"  onclick="myFunction(this);">
-            
-            </div>
-            <div class="columns" id="column2" onmouseover="myOverFunction2()">
-              <img id="2"src="images/GI 15.jpeg"  alt="tekst her"  onclick="myFunction(this);">
-            </div>
-            
-            <div class="columns" id="column3" onmouseover="myOverFunction3()">
-              <img id="3" src="images/Orchestra15.JPG" alt="tekst her" onclick="myFunction(this);">
-            </div>
-          
-            
-              <div class="columns" id="column5" onmouseover="myOverFunction4()">
-                <img id="4" src="images/victoria_med.jpeg" alt="tekst her" onclick="myFunction(this);">
-              </div>
-          
-              <div class="columns" id="column4" onmouseover="myOverFunction5()">
-                <img id="5" src="images/Orchestra13.JPG" alt="tekst her"  onclick="myFunction(this);">
-              </div>
-             
-                <div class="columns"  id="column6" onmouseover="myOverFunction6()">
-                  <img id="6" src="images/GIOband-1.jpg" alt="tekst her"  onclick="myFunction(this);">
-                </div>
-                <div class="columns"  id="column7" onmouseover="myOverFunction7()">
-                  <img id="7" src="images/gio_med-1.jpg"  alt="tekst her"  onclick="myFunction(this);">
-                </div>
 
-                <!-- Legge til nye rader -->
+        <!---Pictures-->
+        <h2>Gallery</h2>
+        <div class="container" id="container">
+            <div onclick="steng()" class="closebtn"> &times;</div>
+            <img onclick="steng()" id="expandedImg">
 
-    <div class="columns" id="column8" onmouseover="myOverFunction8()">
-      <img id="8" src="images/GIOband-1.jpg" alt="tekst her" onclick="myFunction(this);">
-    </div>
-    <div class="columns" id="column9" onmouseover="myOverFunction9()">
-      <img id="9" src="images/gio_med-1.jpg" alt="tekst her" onclick="myFunction(this);">
+            <a id="lastned" target="_blank" download>LAST NED</a>
+        </div>
     </div>
 
-    <div class="columns" id="column10" onmouseover="myOverFunction10()">
-      <img id="10" src="images/GIOband-1.jpg" alt="tekst her" onclick="myFunction(this);">
-    </div>
-    <div class="columns" id="column11" onmouseover="myOverFunction11()">
-      <img id="11" src="images/gio_med-1.jpg" alt="tekst her" onclick="myFunction(this);">
-    </div>
+    <!-- The four columns -->
+    <div id="supercontainer">
 
-    
+        <div class="columns" id="column1" onmouseover="myOverFunction1()">
 
-    <div class="columns" id="column12" onmouseover="myOverFunction12()">
-      <img id="12" src="images/GIOband-1.jpg" alt="tekst her" onclick="myFunction(this);">
-    </div>
-    <div class="columns" id="column13" onmouseover="myOverFunction13()">
-      <img id="13" src="images/gio_med-1.jpg" alt="tekst her" onclick="myFunction(this);">
-    </div>
-    
-    <div class="columns" id="column14" onmouseover="myOverFunction14()">
-      <img id="14" src="images/GIOband-1.jpg" alt="tekst her" onclick="myFunction(this);">
-    </div>
-   
+            <img id="1" src="images/Orchestra14.JPG" alt="" onclick="myFunction(this);">
+
+        </div>
+        <div class="columns" id="column2" onmouseover="myOverFunction2()">
+            <img id="2" src="images/GI 15.jpeg" alt="" onclick="myFunction(this);">
+        </div>
+
+        <div class="columns" id="column3" onmouseover="myOverFunction3()">
+            <img id="3" src="images/Orchestra15.JPG" alt="" onclick="myFunction(this);">
+        </div>
 
 
-    <div class="columns" id="column15" onmouseover="myOverFunction15()">
-      <img id="15" src="images/gio_med-1.jpg" alt="tekst her" onclick="myFunction(this);">
-    </div>
+        <div class="columns" id="column5" onmouseover="myOverFunction4()">
+            <img id="4" src="images/victoria_med.jpeg" alt="" onclick="myFunction(this);">
+        </div>
 
-    <div class="columns" id="column16" onmouseover="myOverFunction16()">
-      <img id="16" src="images/gio_med-1.jpg" alt="tekst her" onclick="myFunction(this);">
+        <div class="columns" id="column4" onmouseover="myOverFunction5()">
+            <img id="5" src="images/Orchestra13.JPG" alt="" onclick="myFunction(this);">
+        </div>
+
+        <div class="columns" id="column6" onmouseover="myOverFunction6()">
+            <img id="6" src="images/GIOband-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+        <div class="columns" id="column7" onmouseover="myOverFunction7()">
+            <img id="7" src="images/gio_med-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+
+        <!-- Legge til nye rader 
+
+        <div class="columns" id="column8" onmouseover="myOverFunction8()">
+            <img id="8" src="images/GIOband-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+        <div class="columns" id="column9" onmouseover="myOverFunction9()">
+            <img id="9" src="images/gio_med-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+
+        <div class="columns" id="column10" onmouseover="myOverFunction10()">
+            <img id="10" src="images/GIOband-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+        <div class="columns" id="column11" onmouseover="myOverFunction11()">
+            <img id="11" src="images/gio_med-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+
+
+
+        <div class="columns" id="column12" onmouseover="myOverFunction12()">
+            <img id="12" src="images/GIOband-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+        <div class="columns" id="column13" onmouseover="myOverFunction13()">
+            <img id="13" src="images/gio_med-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+
+        <div class="columns" id="column14" onmouseover="myOverFunction14()">
+            <img id="14" src="images/GIOband-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+
+
+
+        <div class="columns" id="column15" onmouseover="myOverFunction15()">
+            <img id="15" src="images/gio_med-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+
+        <div class="columns" id="column16" onmouseover="myOverFunction16()">
+            <img id="16" src="images/gio_med-1.jpg" alt="" onclick="myFunction(this);">
+        </div>
+-->
+
     </div>
 
 
-          </div>
-
-
     </div>
-    
-  <!---Media End-->
 
-         
-           <!---About Start-->
-            <div class="wrapper" id="about">
+    <!---Media End-->
+
+
+    <!---About Start-->
+    <a name="aboutus">
+        <div class="wrapper" id="about">
+            <a name="aboutus"></a>
             <h2 class="aboutheading">About Us</h2>
-              <p id="abouttext">
-                Green Isac Orchestra is a Norwegian music group, which was originally started 
-                by Andreas Eriksen and Morten Lund in 1990, under the name Green Isac. In 2007, 
-                the group expanded to an instrumental live quintet with Tov Ramstad, 
-                Frode Larsen and Jo Wang. For some years, the Green Isac Orchestra has had a concert
-                 series at Kampen Bistro in Oslo under the name Etnotronica.
-                Green IsacOrchestra A Norwegian instrumental band blending electronic and ethnic
-                instruments alike into kinetic rhythms, sometimes electronically fueled, and often 
-                acoustically driven, with accents from processed guitars and quirky synths, 
-                setting it all in otherworldly landscapes with an air of mystery and intrigue.
-                «One of the greatest progressive music acts in Scandinavia.»
-                -Angel Romero -PROGRESSIVE ROCK CENTRAL.
-              </p>
-              </div>
-            <!---About End-->
+            <p id="abouttext">
+                Green Isac Orchestra is a Norwegian music group, which was originally started by Andreas Eriksen and Morten Lund in 1990, under the name Green Isac. In 2007, the group expanded to an instrumental live quintet with Tov Ramstad, Frode Larsen and Jo Wang.
+            </p>
+            <br>
+            <img src="images/giovictoria.png" id="aboutusImage">
+            <p id="abouttext2">
+                For some years, the Green Isac Orchestra has had a concert series at Kampen Bistro in Oslo under the name Etnotronica. Green IsacOrchestra A Norwegian instrumental band blending electronic and ethnic instruments alike into kinetic rhythms, sometimes electronically
+                fueled, and often acoustically driven, with accents from processed guitars and quirky synths, setting it all in otherworldly landscapes with an air of mystery and intrigue. «One of the greatest progressive music acts in Scandinavia.» -Angel
+                Romero -PROGRESSIVE ROCK CENTRAL.
+            </p>
+        </div>
+        <!---About End-->
 
 
-            <!---Contact Start-->
-              <div class="contact" style="height: 700px;" style="width: 100%;">
-                <div id="textcontainer">
-                  <h2 id="contactheading">Contact us</h2>
-                </div>
-                
-                <table>
-                  <tr>
-                    <th id="Cinfo">
-                      <a href="">
-                        <img src="images/information logo.png" style="width: 50px;">
-                      </a> General questions or contact
-                    </th>
-                    <th id="ForI">
-                      Follow on Facebook or Instagram
-                    </th>
-                  </tr>
-          
-                  <tr>
-                    <th>
-                      <a href="" id="Email">info@greenisac.no</a>
-                    </th>
-                    <th>
-                      <a href="" id="Face">
-                        <img src="images/facebook logo.png" style="width: 50px;">
-                      </a>
-                      <a href="" id="Insta">
-                        <img src="images/instagram logo.png" style="width: 50px;">
-                      </a>
-                    </th>
-                  </tr>
-          
-                  <tr>
-                    <th>
-                      <a href="" id="Insta2">
-                        <img src="images/instagram logo.png" style="width: 50px;">
-                      </a>
-                    </th>
-                  </tr>
-          
-                  <tr>
-                    <th id="SPinfo">
-                      <a href="">
-                        <img src="images/information logo.png" style="width: 50px;">
-                      </a> Access to Spotted Peccary site
-                    </th>
-                  </tr>
-                  
-                  <tr>
-                    <th>
-                      <a href="https://spottedpeccary.com/artists/green-isac/" id="SP">SPOTTED PECCARY</a>
-                    </th>
-                    <th>
-                      <a href="" id="Face2">
-                        <img src="images/facebook logo.png" style="width: 50px;">
-                      </a>
-                    </th>
-                  </tr>
-                </table>
-              </div>
-            <!---Contact End-->
+        <!---Contact Start -->
+
+        <div class="wrapper" id="contact">
+            <h2 class="contactheading">Contact</h2>
+            <hr>
+            <a href="https://www.facebook.com/GreenIsac"><img src="images/facebook.png" width="33" height="33"></a>
+            <a href="https://www.facebook.com/GreenIsac"><button class="btn">Facebook</button></a>
+            <a href="mailto:info@greenisac.no"><img src="images/email.png" width="30" height="30"></a>
+            <a href="mailto:info@greenisac.no"><button class="btn">Email</button></a>
+            <a href="https://www.instagram.com/green_isac_orchestra/"><img src="images/instagram.png" width="27" height="27"></a>
+            <a href="https://www.instagram.com/green_isac_orchestra/"><button class="btn">Instagram</button></a>
+            <a href="https://spottedpeccary.com/artists/green-isac/"><img src="images/peccary.png" width="39" height="27"></a>
+            <a href="https://spottedpeccary.com/artists/green-isac/"><button class="btn">Spotted Peccary</button></a>
+        </div>
 
 
- <!----Jquery---->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"crossorigin="anonymous"></script> 
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
- 
-  <!--Script --->
-   <script src="Script.js"></script>
 
- </body>  
+        <!--Script --->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="Script.js"></script>
+
+</body>
+
 </html>
-
